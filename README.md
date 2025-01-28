@@ -27,10 +27,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ziLAQkg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I first installed Active Directory Domain Services to my Windows Server VM. I then promoted the server to a domain controller, creating a new forest titled "mydomain.com". Then I restarted the machine and logged back in as a user.
+I first installed Active Directory Domain Services to my Windows Server VM. I then promoted the server to a domain controller, creating a new forest titled "mydomain.com". Then I restarted the machine and logged back in as a domain user.
 </p>
 <br />
 
