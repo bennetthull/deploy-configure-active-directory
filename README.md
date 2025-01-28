@@ -35,7 +35,7 @@ I first installed Active Directory Domain Services to my Windows Server VM. I th
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AiZ5cQq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After that, I went into Active Directory Users and Computers (ADUC) and created two new Organizational Units (OUs), _EMPLOYEES and _ADMINS. Next, I created a new employee named "Davin" and added him to the "Domain Admins" security group. I logged out and then logged back in on remote desktop as mydomain.com\davin_admin, which will be my admin account from now on. 
