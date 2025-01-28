@@ -43,7 +43,7 @@ After that, I went into Active Directory Users and Computers (ADUC) and created 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FzBkrD4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I then joined my Windows 10 VM, "Client 1" to my domain (mydomain.com). I previously had set Client 1's DNS settings to my Domain Controller's private IP address. After logging in as an admin, I went to Client 1's system properties and allowed domain users access to remote desktop. I then logged back into my Domain Controller as davin_admin. Lastly I ran a Powershell script as an administrator to create 10,000 accounts for the _EMPLOYEES OU. Lastly, I confirmed the functionality of the user accounts by signing in with one of them. 
